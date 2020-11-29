@@ -1,0 +1,141 @@
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #d9d9d9;
+	padding-top: 20px;
+}
+
+header a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #004f9e;
+	font-size: 22px;
+	margin-left: 300px;
+}
+
+/*----------Таблицею-----------*/
+
+.one{
+	margin-bottom: 50px;
+}
+
+.table-main{
+	width: 400px;
+	height: 500px;
+	border: 1px solid black;
+	border-spacing: 0px;
+}
+
+
+.block-2{
+	width: 100px;
+	background-color: yellow;
+	border-right: 1px solid black;
+	text-align: center;
+}
+
+.internal-table{
+	width: 100%;
+	height: 100.6%;
+	border-spacing: 0px;
+}
+
+.block-1, .block-3{
+	background-color: blue;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	height: 20%;
+	color: #fff;
+}
+
+.block-1, .block-4, .block-3{
+	text-align: center;
+}
+
+.block-4{
+	border: 1px solid black;
+	height: 60%
+}
+/*-----------Блоками-------------*/
+
+.two{
+	border: 1px solid black;
+	width: 400px;
+	height: 500px;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.two .left-block{
+	width: 100px;
+	height: 500px;
+	background: yellow;
+	border-right: 1px solid black;
+	text-align: center;
+}
+
+
+.two .right-block{
+	width: 228px;
+	height: 500px;
+	margin-left: 32px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.two .right-block-1, .right-block-3{
+	background-color: blue;
+	height: 20%;
+	color: #fff;
+}
+
+.two .right-block-1, .right-block-4, .right-block-3{
+	width: 100%;
+	display: flex;
+}
+
+.two .right-block-4{
+	height: 60%
+}
+
+/*----------Inline-блоками---------*/
+
+.three{
+	border: 1px solid black;
+	width: 400px;
+	height: 500px;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.three .left-block{
+	width: 100px;
+	height: 500px;
+	background: yellow;
+	border-right: 1px solid black;
+	text-align: center;
+}
+
+
+.three .right-block{
+	width: 228px;
+	height: 500px;
+	margin-left: 32px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.three .right-block-1, .right-block-3{
+	background-color: blue;
+	height: 20%;
+	color: #fff;
+}
+
+.three .right-block-1, .right-block-4, .right-block-3{
+	width: 100%;
+	display: flex;
+}
+
+.three .right-block-4{
+	height: 60%
+}
